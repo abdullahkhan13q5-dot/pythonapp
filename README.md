@@ -1,17 +1,18 @@
-# pythonapp
+# My First Flask Project
 
+Hello! My name is Abdullah.
 
-from flask import Flask
+I am a BSCS student currently learning Python, Flask, Git, and GitHub.
 
-app = Flask(__name__)
+## Features
 
-@app.route("/")
-def home():
-    return "Hello! This is my first Flask project."
+- Flask web server
+- Home page
+- About page
 
-@app.route("/about")
-def about():
-    return "I am learning Flask and GitHub."
+## Technologies
 
-if __name__ == "__main__":
-    app.run(debug=True)
+- Python
+- Flask
+- Git
+- GitHub
